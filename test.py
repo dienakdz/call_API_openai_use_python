@@ -5,7 +5,7 @@ client = OpenAI(api_key="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")
 chat_log = []
 
 while True:
-    user_message = input()
+    user_message = input("Enter input: ")
     if user_message.lower() == "quit":
         break
     else:
